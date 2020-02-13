@@ -1,0 +1,250 @@
+/**
+ * ------------------------------------------------------ *
+ * Base
+ * ------------------------------------------------------ *
+**/
+*:root {
+	--main-dark-color: #333;
+	--main-color: #666;
+	--main-light-color: #999;
+	--white: #fff;
+	--black: #000;
+}
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	line-height: 1.25;
+	color: var(--main-dark-color);
+}
+a:hover, a:active, a:focus {
+	text-decoration: underline;
+}
+img {
+	border: 0;
+}
+/**
+ * ------------------------------------------------------ *
+ * Utilities
+ * ------------------------------------------------------ *
+**/
+.center {
+	text-align: center;
+}
+.reset-mt {
+	margin-top: 0 !important;
+}
+.reset-mb {
+	margin-bottom: 0 !important;
+}
+.margin-top {
+	margin-top: 1em;
+}
+.margin-bottom {
+	margin-bottom: 1em;
+}
+/**
+ * ------------------------------------------------------ *
+ * Styles
+ * ------------------------------------------------------ *
+**/
+.headline {
+	margin: 0 auto 3em;
+}
+h1, .h1 {
+	font-size: 2em;
+	line-height: 1.125;
+	margin: 1.25em 0 0;
+}
+h2, h3, .h2, .h3 {
+	font-size: 1.5em;
+	margin: 1.25em 0 0;
+	font-weight: normal;
+}
+h4, .h4 {
+	font-size: 1em;
+	line-height: 1.5;
+	margin: 2em 0 0.5em;
+}
+p {
+	margin-top: 0;
+	line-height: 1.5;
+}
+/**
+ * ------------------------------------------------------ *
+ * Content
+ * ------------------------------------------------------ *
+**/
+.wrapper {
+	max-width: 87.5em;
+	padding: 0 1.5em;
+	margin: 0 auto;
+}
+.header {
+	padding: 2em 0 1.5em;
+	border-bottom: 2px solid var(--main-light-color);
+}
+.grid-row {
+	width: 100%;
+	margin: 3em auto 3em;
+}
+.flex {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	-moz-flex-flow: row wrap;
+	-ms-flex-flow: row wrap;
+	flex-flow: row wrap;
+}
+.flex.middle {
+	-webkit-align-items: center;
+	-moz-align-items: center;
+	-ms-align-items: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	-moz-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+}
+.flex.first {
+	-webkit-flex-direction: column-reverse;
+	-moz-flex-direction: column-reverse;
+	-ms-flex-direction: column-reverse;
+	flex-direction: column-reverse;
+}
+.grid-row.four-fifths {
+	width: 100%;
+}
+.aside {
+	width: 300px;
+	-webkit-flex: 1 100%;
+	-moz-flex: 1 100%;
+	-ms-flex: 1 100%;
+	flex: 1 100%;
+	text-align: center;
+}
+.aside img {
+	width: 300px;
+}
+.main {
+	-webkit-flex: 1 100%;
+	-moz-flex: 1 100%;
+	-ms-flex: 1 100%;
+	flex: 1 100%;
+	padding-left: 0;
+}
+.main.fix-left {
+	padding-right: 0;
+}
+.main-all {
+	-webkit-flex: 1 100%;
+	-moz-flex: 1 100%;
+	-ms-flex: 1 100%;
+	flex: 1 100%;
+}
+.headline {
+	text-align: center;
+}
+.headline h1 {
+	margin: 0.25em 0 0;
+	font-size: 1.5em;
+	line-height: 1.125;
+}
+.headline h2 {
+	margin: 0.25em 0 0;
+	font-size: 1.25em;
+	line-height: 1.25;
+}
+ul.default {
+	margin: 0;
+	padding-left: 1em;
+}
+ul.default li {
+	color: var(--main-light-color);
+}
+ul.default li p {
+	color: var(--main-color);
+	margin: 0;
+	padding-bottom: 0.25em;
+}
+ul.default li:last-child p {
+	padding-bottom: 0;
+}
+.btn {
+	font-size: 1.125em;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	color: var(--white);
+	padding: 0.5em 1em;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	display: inline-block;
+	background-color: var(--main-dark-color);
+}
+@media all and (min-width: 480px) {
+	.headline h1 {
+		font-size: 2em;
+		line-height: 1.125;
+	}
+	.headline h2 {
+		font-size: 1.5em;
+		line-height: 1.25;
+	}
+}
+@media all and (min-width: 600px) {
+	.grid-row.four-fifths {
+		width: 80%;
+	}
+}
+@media all and (min-width: 768px) {
+	.wrapper {
+		padding: 0 3em;
+	}
+	.flex.first {
+		-webkit-flex-direction: row;
+		-moz-flex-direction: row;
+		-ms-flex-direction: row;
+		flex-direction: row;
+	}
+	.grid-row.four-fifths {
+		width: 100%;
+	}
+	.aside {
+		-webkit-flex: 0;
+		-moz-flex: 0;
+		-ms-flex: 0;
+		flex: 0;
+	}
+	.main {
+		-webkit-flex: 1;
+		-moz-flex: 1;
+		-ms-flex: 1;
+		flex: 1;
+		padding-left: 2em;
+	}
+	.main.fix-left {
+		padding-left: 0;
+		padding-right: 2em;
+	}
+	.headline {
+		text-align: left;
+	}
+	.headline h1 {
+		margin: 1.25em 0 0;
+	}
+}
+@media all and (min-width: 1200px) {
+	.grid-row.four-fifths {
+		width: 80%;
+	}
+}
