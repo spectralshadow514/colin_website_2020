@@ -4,11 +4,19 @@
  * ------------------------------------------------------ *
 **/
 *:root {
+	/* colors */
 	--main-dark-color: #333;
 	--main-color: #666;
 	--main-light-color: #999;
+
+	--secondary-color: #000099;
+
 	--white: #fff;
 	--black: #000;
+
+	
+	/* fonts */
+	--main-font: 'Open Sans', sans-serif;
 }
 * {
 	-moz-box-sizing: border-box;
@@ -21,6 +29,7 @@ body {
 	margin: 0 auto;
 	line-height: 1.25;
 	color: var(--main-dark-color);
+	font-family: var(--main-font);
 }
 a:hover, a:active, a:focus {
 	text-decoration: underline;
@@ -50,9 +59,118 @@ img {
 }
 /**
  * ------------------------------------------------------ *
+ * Header Styles
+ * ------------------------------------------------------ *
+**/
+header.header {
+	position: fixed;
+	top:0;right:0;left:0;
+	transition: .3s;
+}
+header.header.shrink {
+	padding: 5px 0;
+}
+header.header.shrink .logo h1 {
+	font-size: 20px;
+}
+header.header.shrink .nav {
+	margin: 0;
+}
+header.header + * {
+	padding-top: 120px;
+}
+.header-wrapper {
+	display: flex;
+	align-items: center;
+	padding: 0 15px;
+	max-width: 1250px;
+	margin: 0 auto;
+}
+.logo h1 {
+	margin: 0;
+	text-align: center;
+	padding: 0 15px;
+	transition: .3s;
+}
+.logo h1 a {
+	color: var(--secondary-color);
+	text-decoration: none;
+}
+.nav {
+	display: none;
+	padding: 0;
+	line-height: 1;
+	flex: 1 1 auto;
+	flex-wrap: nowrap;
+	text-align: center;
+	padding: 0 15px;
+}
+.nav .sub {
+	position: relative;
+}
+.nav .sub .subnav.nav {
+	height: 0;
+	transition: .3s;
+	position: absolute;
+	top:100%;left:0;right:0;
+	overflow: hidden;
+	background-color: var(--main-dark-color);
+	color: var(--white);
+	padding: 0;
+}
+.nav .sub:hover .subnav.nav, .nav .sub:active .subnav.nav, .nav .sub:focus .subnav.nav {
+	height: 90px;
+}
+.nav li {
+	display: block;
+	flex: 1 1 auto;
+}
+.nav li a {
+	color: var(--main-dark-color);
+	text-decoration: none;
+	font-weight: 700;
+	transition: .3s;
+	padding: 5px;
+	display: block;
+	line-height: 1.25;
+}
+.nav li a:hover, .nav li a:active, .nav li a:focus {
+	background-color: var(--secondary-color);
+	color: var(--white);
+}
+.subnav.nav {
+	flex-direction: column;
+}
+.subnav li {
+	width: 100%;
+}
+.subnav li a {
+	color: var(--white);
+}
+
+.hamburger-container {
+	display: block;
+	flex: 1 1 auto;
+	text-align: right;
+}
+.hamburger-container .hamburger-icon {
+	display: inline-block;
+	height: 0;
+	width: 0;
+	padding: 10px;
+	background-image: url('/cv_assets/img/Hamburger_icon.svg');
+	background-size: contain;
+	background-position: center center;
+}
+/**
+ * ------------------------------------------------------ *
  * Styles
  * ------------------------------------------------------ *
 **/
+
+/*delete later, testing*/
+.header + * { height: 10000px; }
+
 .headline {
 	margin: 0 auto 3em;
 }
@@ -81,8 +199,6 @@ p {
  * ------------------------------------------------------ *
 **/
 .wrapper {
-	max-width: 87.5em;
-	padding: 0 1.5em;
 	margin: 0 auto;
 }
 .header {
@@ -208,7 +324,15 @@ ul.default li:last-child p {
 }
 @media all and (min-width: 768px) {
 	.wrapper {
-		padding: 0 3em;
+	}
+	.logo {
+		width: 35%;
+	}
+	.hamburger-container {
+		display: none;
+	}
+	.nav {
+		display: flex;
 	}
 	.flex.first {
 		-webkit-flex-direction: row;
