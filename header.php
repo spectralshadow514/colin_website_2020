@@ -4,7 +4,7 @@ $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https"
 <header class="header">
     <div class="header-wrapper">
         <div class="logo">  
-            <h1><a href="<?php echo $actual_link ?>">Colin Videlock</a></h1>
+            <h2 class="logo-text"><a href="<?php echo $actual_link ?>">Colin Videlock</a></h2>
         </div>
         <div class="hamburger-container">
             <a href="#" class="hamburger-icon"></a>

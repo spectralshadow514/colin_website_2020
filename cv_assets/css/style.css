@@ -9,7 +9,9 @@
 	--main-color: #666;
 	--main-light-color: #999;
 
+	--secondary-dark-color: #000033;
 	--secondary-color: #000099;
+	--secondary-light-color: #e7e7ff;
 
 	--white: #fff;
 	--black: #000;
@@ -17,6 +19,9 @@
 	
 	/* fonts */
 	--main-font: 'Open Sans', sans-serif;
+
+	/* extra */
+	--site-width: 1500px;
 }
 * {
 	-moz-box-sizing: border-box;
@@ -36,6 +41,13 @@ a:hover, a:active, a:focus {
 }
 img {
 	border: 0;
+	max-width: 100%;
+}
+a {
+	color: var(--secondary-color);
+}
+a:hover, a:focus, a:active {
+	color: var(--secondary-light-color);
 }
 /**
  * ------------------------------------------------------ *
@@ -66,6 +78,9 @@ header.header {
 	position: fixed;
 	top:0;right:0;left:0;
 	transition: .3s;
+	padding: 2em 0 1.5em;
+	border-bottom: 2px solid var(--secondary-color);
+	background-color: var(--white);
 }
 header.header.shrink {
 	padding: 5px 0;
@@ -83,16 +98,18 @@ header.header + * {
 	display: flex;
 	align-items: center;
 	padding: 0 15px;
-	max-width: 1250px;
+	max-width: var(--site-width);
 	margin: 0 auto;
 }
-.logo h1 {
+.logo h2 {
 	margin: 0;
 	text-align: center;
 	padding: 0 15px;
 	transition: .3s;
+	font-weight: 700;
+	font-size: 2em;
 }
-.logo h1 a {
+.logo h2 a {
 	color: var(--secondary-color);
 	text-decoration: none;
 }
@@ -164,15 +181,28 @@ header.header + * {
 }
 /**
  * ------------------------------------------------------ *
+ * Footer Styles
+ * ------------------------------------------------------ *
+**/
+footer.footer {
+	background-color: var(--secondary-light-color);
+}
+/**
+ * ------------------------------------------------------ *
  * Styles
  * ------------------------------------------------------ *
 **/
-
-/*delete later, testing*/
-.header + * { height: 10000px; }
-
+.container {
+	max-width: var(--site-width);
+	margin: 0 auto;
+	padding: 0 15px;
+	display: block;
+}
 .headline {
 	margin: 0 auto 3em;
+}
+h1,h2,h3,h4,h5,h6 {
+	color: var(--secondary-color);
 }
 h1, .h1 {
 	font-size: 2em;
@@ -201,9 +231,14 @@ p {
 .wrapper {
 	margin: 0 auto;
 }
-.header {
-	padding: 2em 0 1.5em;
-	border-bottom: 2px solid var(--main-light-color);
+.banner .banner-image {
+	background-size: cover;
+	background-position: center center;
+	min-height: 200px;
+	display: block;
+}
+.banner .overlay-area {
+	
 }
 .grid-row {
 	width: 100%;
@@ -323,13 +358,14 @@ ul.default li:last-child p {
 	}
 }
 @media all and (min-width: 768px) {
-	.wrapper {
-	}
 	.logo {
 		width: 35%;
 	}
 	.hamburger-container {
 		display: none;
+	}
+	.banner .banner-image {
+		min-height: 500px;
 	}
 	.nav {
 		display: flex;
@@ -348,6 +384,7 @@ ul.default li:last-child p {
 		-moz-flex: 0;
 		-ms-flex: 0;
 		flex: 0;
+		padding-right: 15px;
 	}
 	.main {
 		-webkit-flex: 1;
