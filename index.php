@@ -15,14 +15,16 @@ require_once('head.php');
   <div class="container">
     <div class="grid-row flex reset-mb">
       <div class="aside">
-        <p><img src="/cv_assets/img/cv_profile_crop.jpg" alt="A brown hair, brown eyed man wearing a striped button down shirt" title="Hello! I'm Colin Videlock, welcome to my portfolio." /></p>
+        <p><img src="/cv_assets/img/cv_profile_crop.jpg" class="profile-image" alt="A brown hair, brown eyed man wearing a striped button down shirt" title="Hello! I'm Colin Videlock, welcome to my portfolio." /></p>
       </div>
       <div class="main fix-left margin-bottom">
-        <p>Welcome! I'm Colin Videlock, a full stack web developer. Check out my resume <a href="/cv_assets/extra/Colin_Videlock_2020_resume_updated.pdf">here</a> or alternatively, download my resume <a href="/cv_assets/extra/Colin_Videlock_2020_resume_updated.docx">here!</a></p>
-        <p>I've been a developer at 3 different jobs, spanning about 5 years, and I completed a five year course program at Rochester Institute of Technology where I earned a Bachelors of Science in New Media Interactive Development, and I graduated from Suffolk County Community College with an Associates in Computer Art.</p>
-        <p>I have had a lot of experience building websites and working on computers. My main skills are in PHP, SQL, CSS, and HTML, and I've had experience in XML, AS3, Python, and C#.</p>
-        <p>I have worked in Flash CS5, Microsoft Visual Studio, and Unity, and I've had minor experience in Maya, Photoshop, and Illustrator. My github account is <a href="https://github.com/spectralshadow514"> Spectralshadow514 </a> and my bitbucket account is <a href="https://bitbucket.org/Spectralshadow">Spectralshadow</a>, I am sometimes on IRC under the nick Spectralshadow.</p>
-        <p>My latest and biggest project to date was my senior project, <a href="http://savory.cias.rit.edu/">Savory</a> of which we won a <a href="http://www.rit.edu/imagine/sponsor_awards_2014.php">bronze sponsorship award</a></p>
+        <h2>Welcome!</h2>
+        <p>I'm Colin Videlock, a full stack web developer. Check out my resume <a href="/cv_assets/extra/Colin_Videlock_2020_resume_updated.pdf">here</a> or alternatively, download my resume <a href="/cv_assets/extra/Colin_Videlock_2020_resume_updated.docx">here!</a></p>
+        <p>I've been a developer at various jobs spanning roughly 5 years. Prior to that I had completed a Bachelor of Science from Rochester Institute of Technology in a 5 year program, and gained an Associates degree from Suffolk County Community College on Long Island.</p>
+        <p>From my years in the field I've gained a lot of experience in backend, and frontend programming. My main programming languages are in PHP, HTML, CSS (CSS3, as well as LESS and SCSS/SASS), JavaScript, and JQuery. I've learned a lot about websites and how a user interacts with different portions of both the client side and the admin side, and what each needs. This gives me a unique position in UI development, as well as design.</p>
+        <p>My main code editor of choice is currently Visual Studio Code, I have worked in Flash CS5, Microsoft Visual Studio, Photoshop, and Unity. I also have had minor experience in Maya, and Illustrator. My github account is <a href="https://github.com/spectralshadow514"> Spectralshadow514 </a> and my bitbucket account is <a href="https://bitbucket.org/Spectralshadow">Spectralshadow</a>, you can find me on IRC under the nick Spectralshadow as well.</p>
+        <p>In my free time I enjoy hiking, working on and building computers, watching youtube, and playing video games (ask me my total level on runescape, or my favorite raid from destiny!)</p>
+        <p>Find me interesting? Contact me <a href="mailto:colinvidelock@gmail.com">through my email,</a> or send me a message on my <a href="/contact/">contact page</a></p>
       </div>
     </div>
   </div>
