@@ -252,7 +252,12 @@ p {
 }
 .grid-row {
 	width: 100%;
-	margin: 0 auto 0;
+	margin: 0;
+	margin-left: -25px;
+	margin-bottom: 25px;
+}
+.grid-row > * {
+	padding-left: 25px;
 }
 .flex {
 	display: -webkit-box;
@@ -443,6 +448,12 @@ ul.default li:last-child p {
 	}
 	footer.footer .copy {
 		text-align: left;
+	}
+	h2, .h2 {
+		font-size: 2em;
+	}
+	h3, .h3 {
+		font-size: 1.8em;
 	}
 }
 @media all and (min-width: 1200px) {
