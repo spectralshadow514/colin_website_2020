@@ -13,11 +13,11 @@ require_once('head.php');
     </div>
   </div>
   <div class="container">
-    <div class="grid-row flex reset-mb">
-      <div class="aside">
+    <div class="flex grid-row middle vertical-align">
+      <div class="column-4-mid center">
         <p><img src="/cv_assets/img/cv_profile_crop.jpg" class="profile-image" alt="A brown hair, brown eyed man wearing a striped button down shirt" title="Hello! I'm Colin Videlock, welcome to my portfolio." /></p>
       </div>
-      <div class="main fix-left margin-bottom">
+      <div class="column-8-mid">
         <h2>Welcome!</h2>
         <p>I'm Colin Videlock, a full stack web developer. Check out my resume <a href="/cv_assets/extra/Colin_Videlock_2020_resume_updated.pdf">here</a> or alternatively, download my resume <a href="/cv_assets/extra/Colin_Videlock_2020_resume_updated.docx">here!</a></p>
         <p>I've been a developer at various jobs spanning roughly 5 years. Prior to that I had completed a Bachelor of Science from Rochester Institute of Technology in a 5 year program, and gained an Associates degree from Suffolk County Community College on Long Island.</p>
