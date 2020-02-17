@@ -26,11 +26,11 @@ require_once('head.php');
             </div>
         </div>
         <div class="flex grid-row middle vertical-align">
-          <div class="column-8-mid">
+          <div class="column-4-mid center push"><img src="/cv_assets/img/bx3-interactive.png" alt="BX3 Interactive" title="First job at BX3 Interactive" /></div>
+          <div class="column-8-mid pull">
             <p>My first job at BX3 Interactive was the first biggest hurdle I've had as a developer. BX3 was a smaller company, under 10 employees while I was there. I was quickly pushed into many new environments, and learned a lot about how a website is built the hard way. We had an intense designer who was very pixel-perfect in his criticisms. This helped me earn a new understanding in CSS that I had but a loose grasp on before, while also allowing me to get experience with the back and forth between a designer and developer.</p>
             <p>At BX3 we used a mainly custom CMS that seemed to be based off an early version of joomla, except it hid many of it's bigger content areas in the SQL. This gave me a lot of experience searching and using SQL for displaying and changing content. My main responsibilities at BX3 was building new websites while also learning best practices and being relied on for smaller projects the company had. I ended up leaving to be closer to family back on the east coast, plus I had a better job lined up.</p>
           </div>
-          <div class="column-4-mid center"><img src="/cv_assets/img/bx3-interactive.png" alt="BX3 Interactive" title="First job at BX3 Interactive" /></div>
         </div>
         <div class="flex grid-row middle vertical-align">
           <div class="column-4-mid center"><img src="/cv_assets/img/d3.svg" alt="D3 Corp" title="Second job at D3 Corp" /></div>
@@ -40,10 +40,10 @@ require_once('head.php');
           </div>
         </div>
         <div class="flex grid-row middle vertical-align">
-          <div class="column-8-mid">
+          <div class="column-4-mid center push"><img src="/cv_assets/img/techno-goober.png" alt="Techno Goober" title="Last job at Techno Goober" /></div>
+          <div class="column-8-mid pull">
             <p>After leaving D3Corp I found myself quickly getting picked up by Techno Goober. Techno Goober is smaller company with a much more welcoming group of people, some of which have turned into really good friends. As a smaller company the technologies we used weren't as advanced as D3Corps, but utilizing the backups and technology of "Flywheel" ended up saving us from a lot of grief. My role in the company was as the lead developer, answering technical questions for clients and other developers and designers, while being the main person for creation of websites and side projects.</p>
           </div>
-          <div class="column-4-mid center"><img src="/cv_assets/img/techno-goober.png" alt="Techno Goober" title="Last job at Techno Goober" /></div>
         </div>
         <div class="flex grid-row middle vertical-align">
           <div class="column-12">

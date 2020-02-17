@@ -38,12 +38,12 @@ require_once('head.php');
           </div>
         </div>
         <div class="flex grid-row middle vertical-align">
-          <div class="column-8-mid">
+          <div class="column-4-mid center push"><a href="https://www.propaneservicesaz.com/" target="_blank"><img src="/cv_assets/img/phoenix-propane-services-llc.jpg" alt="The top area of the Propane Services LLC website" title="Visit the Propane Services LLC website!" /></a></div>
+          <div class="column-8-mid pull">
             <h3 class="center"><a href="https://www.propaneservicesaz.com/" target="_blank">Propane Services LLC</a></h3>
             <p>My first official website at a company. It was tough, as the work environment was both new and difficult, a lot of work was done through the CMS but some of it had to be done through SQL, which was nerve wracking. The designer was also stricter on pixel perfectness on his designs, so it really helped with learning how margins, padding and borders really worked without the use of bootstrap.</p>
             <p class="center"><a href="https://www.propaneservicesaz.com/" target="_blank" class="btn">Visit the site!</a></p>
           </div>
-          <div class="column-4-mid center"><a href="https://www.propaneservicesaz.com/" target="_blank"><img src="/cv_assets/img/phoenix-propane-services-llc.jpg" alt="The top area of the Propane Services LLC website" title="Visit the Propane Services LLC website!" /></a></div>
         </div>
         <div class="flex grid-row middle vertical-align">
           <div class="column-12">
@@ -64,12 +64,12 @@ require_once('head.php');
           </div>
         </div>
         <div class="flex grid-row middle vertical-align">
-          <div class="column-8-mid">
+          <div class="column-4-mid center push"><a href="https://splashmountainoc.com/park-info/attractions/" target="_blank"><img src="/cv_assets/img/jolly-roger-parks.png" alt="The top area of the Splash Mountain site" title="Visit the Splash Mountain Jolly Roger attractions site!" /></a></div>
+          <div class="column-8-mid pull">
             <h3 class="center"><a href="https://splashmountainoc.com/park-info/attractions/" target="_blank">Jolly Roger Park Filter</a></h3>
             <p>Created a filter, and filled out the attractions, for all the parks on the Jolly Roger sites. This was a larger undertaking as it was a similar, but different, filter per park as each one had different requirements for each ride. It took a bit of enginuity and wordpress knowledge to get it right.</p>
             <p class="center"><a class="btn" href="https://splashmountainoc.com/park-info/attractions/" target="_blank">Visit the site!</a></P>
           </div>
-          <div class="column-4-mid center"><a href="https://splashmountainoc.com/park-info/attractions/" target="_blank"><img src="/cv_assets/img/jolly-roger-parks.png" alt="The top area of the Splash Mountain site" title="Visit the Splash Mountain Jolly Roger attractions site!" /></a></div>
         </div>
         <div class="flex grid-row middle vertical-align">
           <div class="column-12">
@@ -90,12 +90,12 @@ require_once('head.php');
           </div>
         </div>
         <div class="flex grid-row middle vertical-align">
-          <div class="column-8-mid">
+          <div class="column-4-mid center push"><a href="https://www.immanuelshelter.org/" target="_blank"><img src="/cv_assets/img/immanuel-shelter.jpg" alt="The top portion of the Immanuel Shelter website" title="Visit the Immanuel Shelter Website!" /></a></div>
+          <div class="column-8-mid pull">
             <h3 class="center"><a href="https://www.immanuelshelter.org/" target="_blank">Immanuel Shelter</a></h3>
             <p>An initially ambitious rehaul of their admittedly meager website they had won a competition for. There were talks of creating some crazy javascript portions, like donation trackers. Unfortunately we never made it that far, but what we did do has helped them a lot and we had many thanks from them.</p>
             <p class="center"><a class="btn" href="https://www.immanuelshelter.org/" target="_blank">Visit the site!</a></P>
           </div>
-          <div class="column-4-mid center"><a href="https://www.immanuelshelter.org/" target="_blank"><img src="/cv_assets/img/immanuel-shelter.jpg" alt="The top portion of the Immanuel Shelter website" title="Visit the Immanuel Shelter Website!" /></a></div>
         </div>
         <div class="flex grid-row middle vertical-align">
           <div class="column-4-mid center"><a href="https://www.originalhardwood.com/" target="_blank"><img src="/cv_assets/img/pinnacle-flooring.jpg" alt="Top portion of the Pinnacle Flooring Website" title="Visit the Pinnacle Flooring Website!" /></a></div>
@@ -106,12 +106,12 @@ require_once('head.php');
           </div>
         </div>
         <div class="flex grid-row middle vertical-align">
-          <div class="column-8-mid">
+          <div class="column-4-mid center push"><a href="https://web.archive.org/web/20190214141920/http://zzhousedesign.com/" target="_blank"><img src="/cv_assets/img/zz-house.png" alt="The top portion of the ZZHouse website" title="Visit the ZZHouse archive!" /></a></div>
+          <div class="column-8-mid pull">
             <h3 class="center"><a href="https://web.archive.org/web/20190214141920/http://zzhousedesign.com/" target="_blank">ZZHouse</a></h3>
             <p>A website designed by the company that contacted us. Every page had a completely different design, but with the same background and colors. It was a long and difficult site, but eventually was launched. Later on they eventually wanted something different and unfortunately decided to go in house with their project.</p>
             <p class="center"><a class="btn" href="https://web.archive.org/web/20190214141920/http://zzhousedesign.com/" target="_blank">Visit the site!</a></P>
           </div>
-          <div class="column-4-mid center"><a href="https://web.archive.org/web/20190214141920/http://zzhousedesign.com/" target="_blank"><img src="/cv_assets/img/zz-house.png" alt="The top portion of the ZZHouse website" title="Visit the ZZHouse archive!" /></a></div>
         </div>
         <div class="flex grid-row middle vertical-align">
           <div class="column-4-mid center"><a href="https://web.archive.org/web/20190421210900/https://www.200deep.com/" target="_blank"><img src="/cv_assets/img/200deep.jpg" alt="The top portion of the 200Deep website" title="Visit the 200Deep archive!" /></a></div>

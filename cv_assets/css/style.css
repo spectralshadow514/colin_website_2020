@@ -492,6 +492,14 @@ ul.default li:last-child p {
 	h3, .h3 {
 		font-size: 1.8em;
 	}
+	.column-4-mid.push {
+		position: relative;
+		left: 66.666%;
+	}
+	.column-8-mid.pull {
+		position: relative;
+		left: -33.333%;
+	}
 }
 @media all and (min-width: 1200px) {
 	.grid-row.four-fifths {
