@@ -178,6 +178,38 @@ header.header.shrink .nav {
 	background-size: contain;
 	background-position: center center;
 }
+.pusha-panel__content {
+	background-color: var(--secondary-dark-color);
+}
+.pusha-panel__content p {
+	margin: 0;
+}
+.pusha-panel__content .btn {
+	width: 100%;
+}
+.offcanvas-nav {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	display: block;
+}
+.offcanvas-nav li {
+	display: block;
+}
+.offcanvas-nav li a {
+	padding: 10px 15px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: var(--secondary-dark-color);
+    color: var(--white);
+	display: block;
+	transition: .3s;
+}
+.offcanvas-nav li a:hover, .offcanvas-nav li a:active, .offcanvas-nav li a:focus {
+	background-color: var(--secondary-light-color);
+	color: var(--secondary-dark-color);
+}
 /**
  * ------------------------------------------------------ *
  * Footer Styles

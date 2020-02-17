@@ -1,17 +1,17 @@
 <?php
 $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]";
 ?>
-<header class="header">
+<header class="header pusha-push">
     <div class="header-wrapper">
         <div class="logo">  
             <h2 class="logo-text"><a href="<?php echo $actual_link ?>">Colin Videlock</a></h2>
         </div>
         <div class="hamburger-container">
-            <a href="#" class="hamburger-icon"></a>
+            <a href="#" class="hamburger-icon js-open-panel" aria-expanded="false"></a>
         </div>
         <ul class="nav">
             <li><a href="<?php echo $actual_link; ?>">Home</a></li>
-            <li><a href="/about/">About</a></li>
+            <li><a href="/about">About</a></li>
             <li class="sub">
                 <a href="#">Examples</a>
                 <ul class="subnav nav">
@@ -20,13 +20,13 @@ $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https"
                     <li><a href="/joomla/">Joomla</a></li>
                 </ul>
             </li>
-            <li><a href="/portfolio/">Portfolio</a></li>
+            <li><a href="/portfolio">Portfolio</a></li>
             <li class="sub">
-                <a href="/contact/">Contact</a>
+                <a href="/contact">Contact</a>
                 <ul class="subnav nav">
                     <li><a target="_blank" href="https://github.com/spectralshadow514/">Github</a></li>
-                    <li><a href="/">Resume PDF</a></li>
-                    <li><a href="/">Resume Docx</a></li>
+                    <li><a href="/cv_assets/extra/Colin_Videlock_2020_resume_updated.pdf">Resume PDF</a></li>
+                    <li><a href="/cv_assets/extra/Colin_Videlock_2020_resume_updated.docx">Resume Doc</a></li>
                 </ul>
             </li>
         </ul>
