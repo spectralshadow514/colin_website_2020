@@ -8,7 +8,7 @@ require_once('head.php');
     <div class="banner-image" style="background-image: url('/cv_assets/img/cv_banner_full.jpg');"></div>
     <div class="overlay-area">
       <div class="container">
-        <h1>Colin Videlock's Portfolio</h1>
+        <h1>Colin Videlocks Portfolio</h1>
       </div>
     </div>
   </div>

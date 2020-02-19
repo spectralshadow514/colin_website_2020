@@ -42,7 +42,7 @@ require_once('head.php');
         <div class="flex grid-row middle vertical-align">
           <div class="column-4-mid center push"><img src="/cv_assets/img/techno-goober.png" alt="Techno Goober" title="Last job at Techno Goober" /></div>
           <div class="column-8-mid pull">
-            <p>After leaving D3Corp I was immediately picked up by Techno Goober. Techno Goober is smaller company with a more welcoming group of people, some of which have turned into really good friends. As a smaller company the technologies we used weren't as advanced as D3Corp, but utilizing the backups and technology of "Flywheel" ended up saving us from a lot of grief. As the lead developer my roles in the company were answering technical questions for clients and other developers and designers, while being the main person for creation of websites and side projects.</p>
+            <p>After leaving D3Corp I was immediately picked up by Techno Goober. Techno Goober is a small company with a more welcoming group of people, some of which have turned into really good friends. As a smaller company the technologies we used weren't as advanced as D3Corp, but utilizing the backups and technology of "Flywheel" ended up saving us from a lot of grief. As the lead developer my roles in the company were answering technical questions for clients as well as other developers and designers. While being the main person for creation of websites and side projects I introduced other technologies and ideas to make development quicker and easier.</p>
           </div>
         </div>
         <div class="flex grid-row middle vertical-align">
@@ -61,8 +61,17 @@ require_once('head.php');
             <p>I spend a lot of time indoors, reading books, playing video games, listening to music, and watching movies and tv.</p>
             <p>I have built every computer that I have owned. I am currently running an ASRock Z270 motherboard, 32gigs of 3200 ram, an 8700k i7 Intel CPU, and a NVIDIA 1080 GPU. Eventually I plan on watercooling in the next build, but I don't plan on doing that until some time after the next console generation has had a bit of time out in the wild.</p>
             <p>After many years of collecting I've amassed a substantial list of video games, spanning from the original Atari, to the Game Gear, and all the way up to XBox 1, Switch, and PS4. A gaming pastime of mine is a charity stream called Games Done Quick, a speedrunning event, which I've donated a considerable amount of time and money to their causes.</p>
-            <p>As a preteen and into my teenage years I played guitar, which influenced my music tastes. I learned to appreciate guitarists, my favorite being the lead guitarist of Porcupine Tree.</p>
-            <p>I also enjoy exploring and being in nature, I've been to a lot of different parks and trails around the country.</p>
+            <o>Another indoor past time I've enjoyed is playing with slot cars, something my dad introduced me to at a very young age. Racing, crashing, and tinkering with them has been a lot of fun as I've grown up!</p>
+            <p>As a preteen and into my teenage years I played guitar, which influenced my music tastes. I learned to appreciate guitarists; my favorite being the lead guitarist of Porcupine Tree.</p>
+            <p>I also enjoy exploring and being in nature, I've visited many different parks and trails throughout the country.</p>
+          </div>
+        </div>
+        <div class="flex grid-row middle vertical-align">
+          <div class="column-12">
+            <video autoplay="autoplay" muted="muted" loop="loop">
+              <source src="/cv_assets/extra/slowmo-car.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video> 
           </div>
         </div>
     </div>

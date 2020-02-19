@@ -50,6 +50,9 @@ a {
 a:hover, a:focus, a:active {
 	color: var(--secondary-dark-color);
 }
+video {
+	width: 100%;
+}
 /**
  * ------------------------------------------------------ *
  * Utilities
