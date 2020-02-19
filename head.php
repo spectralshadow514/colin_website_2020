@@ -19,6 +19,16 @@
 <link rel="apple-touch-icon" sizes="76x76" href="/cv_assets/img/icon-76x76.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/cv_assets/img/icon-72x72.png">
 <link rel="apple-touch-icon-precomposed" href="/cv_assets/img/icon-57x57.png">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158786709-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-158786709-1');
+</script>
+
 </head>
 <body>
 <div class="pusha-panel pusha-panel--left" aria-hidden="true">
