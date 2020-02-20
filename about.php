@@ -40,7 +40,7 @@ require_once('head.php');
           </div>
         </div>
         <div class="flex grid-row middle vertical-align">
-          <div class="column-4-mid center push"><img src="/cv_assets/img/techno-goober.png" alt="Techno Goober" title="Last job at Techno Goober" /></div>
+          <div class="column-4-mid center push"><img src="/cv_assets/img/techno-goober-small.png" alt="Techno Goober" title="Last job at Techno Goober" /></div>
           <div class="column-8-mid pull">
             <p>After leaving D3Corp I was immediately picked up by Techno Goober. Techno Goober is a small company with a more welcoming group of people, some of which have turned into really good friends. As a smaller company the technologies we used weren't as advanced as D3Corp, but utilizing the backups and technology of "Flywheel" ended up saving us from a lot of grief. As the lead developer my roles in the company were answering technical questions for clients as well as other developers and designers. While being the main person for creation of websites and side projects I introduced other technologies and ideas to make development quicker and easier.</p>
           </div>
@@ -56,7 +56,7 @@ require_once('head.php');
           </div>
         </div>
         <div class="flex grid-row middle vertical-align">
-          <div class="column-4-mid center"><img src="/cv_assets/img/cv_profile_crop.jpg" class="profile-image" alt="A brown hair, brown eyed man wearing a striped button down shirt" title="Hello! I'm Colin Videlock, welcome to my portfolio." /></div>
+          <div class="column-4-mid center"><img src="/cv_assets/img/cv-profile-crop-small.jpg" class="profile-image" alt="A brown hair, brown eyed man wearing a striped button down shirt" title="Hello! I'm Colin Videlock, welcome to my portfolio." /></div>
           <div class="column-8-mid">
             <p>I spend a lot of time indoors, reading books, playing video games, listening to music, and watching movies and tv.</p>
             <p>I have built every computer that I have owned. I am currently running an ASRock Z270 motherboard, 32gigs of 3200 ram, an 8700k i7 Intel CPU, and a NVIDIA 1080 GPU. Eventually I plan on watercooling in the next build, but I don't plan on doing that until some time after the next console generation has had a bit of time out in the wild.</p>

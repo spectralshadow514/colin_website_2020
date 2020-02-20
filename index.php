@@ -15,7 +15,7 @@ require_once('head.php');
   <div class="container">
     <div class="flex grid-row middle vertical-align">
       <div class="column-4-mid center">
-        <p><img src="/cv_assets/img/cv_profile_crop.jpg" class="profile-image" alt="A brown hair, brown eyed man wearing a striped button down shirt" title="Hello! I'm Colin Videlock, welcome to my portfolio." /></p>
+        <p><img src="/cv_assets/img/cv-profile-crop-small.jpg" class="profile-image" alt="A brown hair, brown eyed man wearing a striped button down shirt" title="Hello! I'm Colin Videlock, welcome to my portfolio." /></p>
       </div>
       <div class="column-8-mid">
         <h2>Welcome!</h2>

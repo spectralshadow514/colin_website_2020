@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -7,8 +8,8 @@
 <meta name="author" content="">
 <title>Colin Videlock's Portfolio Site</title>
 <link rel="stylesheet" href="/cv_assets/css/style.css">
-<script type="text/javascript" src="/cv_assets/js/jquery-3.4.1.min.js"></script>
-<script type="text/javascript" src="/cv_assets/js/main.js"></script>
+<script src="/cv_assets/js/jquery-3.4.1.min.js"></script>
+<script src="/cv_assets/js/main.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet"> 
 <link rel="shortcut icon" href="/cv_assets/img/favicon.ico">
 <link rel="stylesheet" href="cv_assets/css/pusha.min.css" />
