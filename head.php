@@ -10,6 +10,7 @@
 <link rel="stylesheet" href="/cv_assets/css/style.css">
 <script src="/cv_assets/js/jquery-3.4.1.min.js"></script>
 <script src="/cv_assets/js/main.js"></script>
+<script src="/cv_assets/js/wufoo.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet"> 
 <link rel="shortcut icon" href="/cv_assets/img/favicon.ico">
 <link rel="stylesheet" href="cv_assets/css/pusha.min.css" />
