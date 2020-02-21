@@ -25,8 +25,8 @@ $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https"
                 <a href="/contact">Contact</a>
                 <ul class="subnav nav">
                     <li><a target="_blank" href="https://github.com/spectralshadow514/">Github</a></li>
-                    <li><a href="/cv_assets/extra/Colin_Videlock_2020_resume_updated.pdf">Resume PDF</a></li>
-                    <li><a href="/cv_assets/extra/Colin_Videlock_2020_resume_updated.docx">Resume Doc</a></li>
+                    <li><a href="/cv_assets/extra/Colin_Videlock_2020_resume.pdf">Resume PDF</a></li>
+                    <li><a href="/cv_assets/extra/Colin_Videlock_2020_resume.docx">Resume Doc</a></li>
                 </ul>
             </li>
         </ul>
