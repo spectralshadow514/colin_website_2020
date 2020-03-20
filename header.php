@@ -12,14 +12,7 @@ $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https"
         <ul class="nav">
             <li><a href="<?php echo $actual_link; ?>">Home</a></li>
             <li><a href="/about">About</a></li>
-            <li class="sub">
-                <a href="#">Examples</a>
-                <ul class="subnav nav">
-                    <li><a href="/magento/">Magento</a></li>
-                    <li><a href="/wordpress/">Wordpress</a></li>
-                    <li><a href="/joomla/">Joomla</a></li>
-                </ul>
-            </li>
+            <!---<li><a href="/wordpress/">Wordpress</a></li>-->
             <li><a href="/portfolio">Portfolio</a></li>
             <li class="sub">
                 <a href="/contact">Contact</a>
